@@ -34,10 +34,10 @@ void display(int * Q,int front,int rear)
     {
         printf("\n QUEUE IS EMPTY \n\n");
     }
-    else
+    else//display elements of queue
     {
     
-        printf("elemnts of queue are\n");
+        printf("elements of queue are\n");
         for(int i=front;i<=rear;i++)	     
         {  
               printf(" %d \n",Q[i]);  
