@@ -62,6 +62,7 @@ int main()
             case 3:display(Q,front,rear);
                     break;
             case 4:exit(0);
+	    default:printf("invalid choice\n");
             
         }
     } 
